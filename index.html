@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio website</title>
+    <link rel="icon" href="J.png" />
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- hero Section start -->
+
+    <div class="hero">
+        <nav>
+            <h2 class="logo"><span>My</span>Portfolio</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#achievement">Achievements</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="time-weather.html">World Clock & Weather</a></li>
+            </ul>
+            <a href="https://www.linkedin.com/in/juliana-abdul-rahim-443382258/" class="btn">MyLinkIn</a>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Juliana <span>Abdul Rahim</span></h1>
+            <h3>I'am an Electonic BTech Student.</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Let's Start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js""></script>
+
+    <script>
+        $(window).scroll(function(){
+            if($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        })
+    </script>
+
+    <!-- About section start -->
+    <a name="about"></a>
+    <section class="about">
+        <div class="main">
+            <img src="me.jpg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Future UMP graduates <span>in 2024</span></h5>
+                <p>My name is Juliana Binti Abdul Rahim. Is the fifth child of 6 siblings. Raised in Klang, Selangor. Started studies at Batu Belah primary school and Rantau Panjang national high school. Then, became a diploma graduate at Klang Vocational College majoring in electronic technology. And now pursuing a bachelor of Industrial Electronic Automation Technology with Honor at Universiti Malaysia Pahang. A person who is confident in herself and tries to be the best.</p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section start -->
+    <a name="skills"></a>
+    <div class="skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <img src="skill1.png">
+                <h5>Microsoft Office</h5>
+                <div class="pra">
+                    <p>Proficient in using Microsoft Office software such as Microsoft Word, Microsoft Excel, Microsoft Powerpoint etc.</p>
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h5>Programming</h5>
+                <div class="pra">
+                    <p>Have basic skills for most types of programming languages ​​such as Python, C++, Php, html, css, ladder diagram etc.</p>
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="skill3.png">
+                <h5>Editing</h5>
+                <div class="pra">
+                    <p>Skilled in using Canva software to edit photos and videos.</p>
+                    <p style="text-align: center;">
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Project section start -->
+    <a name="project"></a>
+    <div class="project">
+        <div class="title">
+            <h2>Project</h2>
+        </div>
+        <div class="box1">
+            <div class="card1">
+                <img src="project1.jpg">
+                <h5>PLC App. Module</h5>
+                <div class="pra">
+                    <p>Build programming for PLC App. Module - Sorting Conveyor. Various wiring work is done and programming using CX-OMRON.</p>
+                </div>
+            </div>
+
+            <div class="card1">
+                <img src="project2.jpg">
+                <h5>Water Refill System</h5>
+                <div class="pra">
+                    <p>A system designed to refill water for drinking. Various sensors such as water temperature, ultrasonic, water flow sensors and actuators such as servo motors are used for this project. Arduino and Raspberry Pi are used as controllers.</p>
+                </div>
+                <img src="project.jpg">
+            </div>
+            
+            <div class="card1">
+                <img src="project3.jpg">
+                <h5>Eve Robot</h5>
+                <div class="pra">
+                    <p>A robot that is equipped with various sensors and can be moved according to the control using MIT apps Inventor in the user's smartphone.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Work section start -->
+    <a name="work"></a>
+    <div class="work">
+        <div class="title">
+            <h2>Work Experience</h2>
+        </div>
+        <div class="box2">
+            <div class="card2">
+                <img src="company1.jpg">
+                <h5>OCK Setia Engineering Sdn. Bhd.</h5>
+                <div class="pra">
+                    <p>Worked as an Internship at a telecommunications company in Glenmarie, Shah Alam for 5 months. Perform various tasks as a technician's assistant to prepare photo reports for maintenance projects.</p>
+                </div>
+            </div>
+            <div class="card2">
+                <img src="company2.jpeg">
+                <h5>Sato Malaysia Electronics Manufacturing Sdn. Bhd.</h5>
+                <div class="pra">
+                    <p>Worked at Sato for 1 year and 2 months as an operator on the production line. Make adjustments for barcode printers produced by Sato. A manufacturing company that supplies barcode printers, label and pcb.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievement section start -->
+    <a name="achievement"></a>
+    <div class="achievement">
+        <div class="title">
+            <h2>Achievement</h2>
+        </div>
+        <div class="box3">
+            <div class="card3">
+                <img src="achievement1.jpg">
+                <h5>King Scout 2017</h5>
+                <div class="pra">
+                    <p>Active in scouting and received the King's Scout Award in 2017</p>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="achievement2.jpg">
+                <h5>Active in University</h5>
+                <div class="pra">
+                    <p>Actively participate in clubs in the university, become a crew in several programs, participate in volunteering programs and have been the highest council in the PEKA5 club as deputy secretary.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <a name="contact-me"></a>
+    <div class="contact-me">
+        <div class="title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="box4">
+            <div class="card4">
+                <i class="fa-brands fa-whatsapp"></i>
+                <h5>Call / Whatsapp</h5>
+                <a class="button-two" href="wa.link/0zkt6l">012-6278828</a>
+            </div>
+            <div class="card4">
+                <i class="fa-regular fa-envelope"></i>
+                <h5>E-mail</h5>
+                <a class="button-two" href="julianarahim55@gmail.com">julianarahim55@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer start -->
+    <footer>
+        <p>Juliana <span>Abdul Rahim</span></p>
+        <p>Follow my social media below.</p>
+        <div class="social">
+            <a href="https://www.facebook.com/lieyana.rahim.5"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/juju_lieyana/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="www.linkedin.com/in/juliana-abdul-rahim-443382258"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <br>
+        <p class="end">PortFolio by Juliana Abdul Rahim</p>
+    </footer>
+
+    
+    
+</body>
+</html>

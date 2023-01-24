@@ -1,0 +1,79 @@
+* {
+    letter-spacing: 1.15px;
+    box-sizing: border-box;
+    font-family: 'Montserrat' !important;
+}
+
+/* -----------------------nav bar--------------------- */
+nav{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    transition: 1s;
+}
+
+.logo{
+    color:antiquewhite;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.logo:hover{
+    transition: transform .4s;
+    transform: scale(1.2);
+}
+
+span{
+    color: deeppink;
+}
+
+
+/* ------------------------------ */
+
+div {
+    display: block;
+}
+
+html,
+body {
+    background-color: #1b1b26 !important;
+    color: white !important;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+p {
+    color: white;
+}
+
+input {
+    width: 250px !important;
+}
+
+button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    border-width: 2.25px;
+    cursor: pointer;
+}
+
+#weatherIcon {
+    width: 256px !important;
+    height: 256px !important;
+}
