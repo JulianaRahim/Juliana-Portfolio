@@ -165,7 +165,7 @@ function loadLocation() {
     if (localStorage.getItem('location') != undefined) {
         location = localStorage.getItem('location');
     } else {
-        location = 'Selangor, Klang';
+        location = 'Klang, Selangor';
     }
 
     $('.input').val(location);
